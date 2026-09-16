@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francis Troy Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--  Floating Blue Bubbles Background -->
+    <div class="bubbles">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!--  Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"> My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 🏠 HOME — Text LEFT, Profile RIGHT + Background Image -->
+    <section id="home" class="home">
+        <div class="home-overlay"></div>
+        <div class="home-container">
+            <div class="home-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1>I'm <span class="highlight">Francis Troy C. Padilla</span></h1>
+                <p class="tagline">✨ Cool • Funny • Strong ✨</p>
+                <p> Ikaw ang bugtong itik nga nagkapakapa sakong dughang malapukon. </p>
+                <a href="#contact" class="btn">💙 Get In Touch</a>
+            </div>
+            <div class="profile-wrapper">
+                <div class="profile-pic">
+                    <img src="2.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 👤 About Me -->
+    <section id="about" class="section about">
+        <h2 class="section-title">💙 About Me</h2>
+        <div class="about-content bubble-card">
+            <p>I'm a son of God, I'm part of a Youth Organization for 4 years.</p>
+            <p>I'm friendly and can be quite loud when I'm with the right people, I value friendship a lot for I too have experience losing a friend.</p>
+            <p>My goal is to encourage anyone and motivate them to not give up as our lives gets better in the future.</p>
+            <p>I am outgoing and can be taken to any places, I've learned to live and enjoy life!</p>
+        </div>
+    </section>
+
+    <!-- 🎀 My Skills -->
+    <section id="skills" class="section skills">
+        <h2 class="section-title">🫧 My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card bubble-card">
+                <i class="fas fa-brain"></i>
+                <h3>Judgment</h3>
+                <p>Chooses the choices carefully and always think before acting.</p>
+            </div>
+            <div class="skill-card bubble-card">
+                <i class="fas fa-heart"></i>
+                <h3>Kindness</h3>
+                <p>Helpful at home, helpful online, always ready to assist.</p>
+            </div>
+            <div class="skill-card bubble-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Protective</h3>
+                <p>Stay calm, stay brave, and think clearly when things get tough.</p>
+            </div>
+            <div class="skill-card bubble-card">
+                <i class="fas fa-star"></i>
+                <h3>Growing</h3>
+                <p>Always improving, always reaching for new heights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📁 Projects -->
+    <section id="projects" class="section projects">
+        <h2 class="section-title">💎 My Creations</h2>
+        <div class="projects-grid">
+            <div class="project-card bubble-card">
+                <h3>🌐 Personal Portfolio</h3>
+                <p>A clean and responsive website built to show who I am and what I love.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card bubble-card">
+                <h3>📘 Daily Life Guide</h3>
+                <p>A helpful collection of tips for home, safety, and everyday happiness.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card bubble-card">
+                <h3>⚽ Sports & Goals</h3>
+                <p>Tracking my activities, progress, and dreams — one step at a time.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🎓 Education -->
+    <section id="education" class="section education">
+        <h2 class="section-title">🎓 My Journey</h2>
+        <div class="education-item bubble-card">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Central Philippines State University</p>
+            <p class="year">💙 2024 — Present</p>
+        </div>
+        <div class="education-item bubble-card">
+            <h3>High School Diploma</h3>
+            <p>Julio Ledesma National HIgh School</p>
+            <p class="year">💙 2019 — 2024</p>
+        </div>
+    </section>
+
+    <!-- ✉️ Contact -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">💌 Send Me a Message</h2>
+        <form class="contact-form bubble-card">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name 💙" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email 💙" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" placeholder="Your Message ✨" required></textarea>
+            </div>
+            <button type="submit" class="btn">💙 Send Message</button>
+        </form>
+    </section>
+
+    <!-- 🦶 Footer -->
+    <footer>
+        <p>🫧 Made with love & courage — Blue Bubble Edition © 2026</p>
+    </footer>
+
+</body>
+</html>
